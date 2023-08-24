@@ -1,0 +1,2 @@
+execute store result score _cok_kt_soldier difensive_archers_count if entity @e[tag=defensive-archer]
+execute store result score _cok_kt_soldier attack-infantry_count if entity @e[tag=defensive-archer]

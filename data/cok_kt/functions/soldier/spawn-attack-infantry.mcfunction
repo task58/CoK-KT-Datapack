@@ -1,0 +1,2 @@
+execute if score _cok_kt_soldier attack-infantry_count >= _cok_kt_config soldier_limitcount run return 1
+summon zombie ~ ~2 ~ {Tags:["defensive-archer","soldier"],CustomNameVisible:1b,Team:"ATK",PersistenceRequired:1b,CanPickUpLoot:0b,CanBreakDoors:0b,CustomName:'{"text":"攻撃側歩兵","color":"red"}',HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{Unbreakable:1b}},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b,tag:{Unbreakable:1b}}]}

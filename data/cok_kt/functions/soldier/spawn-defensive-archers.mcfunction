@@ -1,0 +1,2 @@
+execute if score _cok_kt_soldier difensive_archers_count >= _cok_kt_config soldier_limitcount run return 1
+summon skeleton ~ ~2 ~ {Tags:["defensive-archer","soldier"],CustomNameVisible:1b,Team:"DEF",PersistenceRequired:1b,CanPickUpLoot:0b,CustomName:'{"text":"防衛側弓兵","color":"blue"}',HandItems:[{id:"minecraft:bow",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:power",lvl:1s},{id:"minecraft:infinity",lvl:1s}]}},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1b,tag:{Unbreakable:1b}}]}
