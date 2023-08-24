@@ -23,8 +23,11 @@ execute if score @p sub_weapon matches 4 run give @p crossbow{display:{Name:'{"t
 
 
 #ユーティリティ3の供与
+#攻撃側(1~4)
+execute if score @p utility3 matches 1 run give @p stone_button{display:{Name:'{"text": "攻撃側歩兵召喚"}',Lore:['{"text": "歩兵(ゾンビ)を召喚できる。上限を超えると召喚できない"}']},CanPlaceOn:["netherite_block"]}
 
-
+#防衛側(5~8)
+execute if score @p utility3 matches 5 run give @p stone_button{display:{Name:'{"text": "防衛側弓兵召喚"}',Lore:['{"text": "弓兵(スケルトン))を召喚できる。上限を超えると召喚できない"}']},CanPlaceOn:["lapis_block"]}
 
 
 #共通アイテムを渡す (パン1スタック、矢2スタック)
